@@ -12,7 +12,7 @@
 /* makes navbar transparent when you scroll down through the website */
 .header-bg{
     background-color: rgba(0, 0, 0, 0.75);
-    transition: 0.3s;
+    transition: 0.55s;
 }
 
 
