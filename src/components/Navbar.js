@@ -10,9 +10,17 @@ const Navbar = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
 
+    // making transparent navbar active
+    const [color, setColor] = useState(false)
+    const changeColor = () =>{
+        if(window.scrollY >=1){setColor(true);}
+        else{setColor(false)}
+    }
+    // setting scrolling window functionnal
+window.addEventListener("scroll", changeColor);
 
   return (
-    <div className="header">
+    <div className={color ? "header header-bg" : "header"}>
         <Link to="/">
             <h1 className="main-title">Portfolio.</h1>
         </Link>
