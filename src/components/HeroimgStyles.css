@@ -18,12 +18,19 @@
 
 @media screen and (max-width: 1040px) {
     .intro-img{
-        width: 100%;
-        height: 100%;
+        width: 393px;
+        height: 800px;
         background-size: cover;
         background-position: center;
-        object-fit: cover;  
-    }
+        object-fit:cover; 
+    }    
+    .hero .content {
+        align-items: flex-start; 
+        margin-top: -45px;
+            font-size: 3.3rem;
+            padding: 0.6rem 0 1.5rem;
+        }
+    
 }
 
 .mask::after{

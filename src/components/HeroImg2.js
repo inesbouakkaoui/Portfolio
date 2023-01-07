@@ -7,6 +7,7 @@ class HeroImg2 extends Component {
   return (
     <div className="hero-img">
         <div className="heading">
+          <br />
             <h1>{this.props.heading}</h1>
             <p>{this.props.text}</p>
         </div>
