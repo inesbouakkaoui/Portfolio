@@ -1,7 +1,7 @@
 import "./FooterStyles.css"
 
 import React from 'react'
-import { FaHome, FaPhone, FaMailBulk, FaLinkedin, FaDiscord } from "react-icons/fa"
+import { FaHome, FaPhone, FaMailBulk, FaLinkedin, FaGithub } from "react-icons/fa"
 
 const Footer = () => {
   return (
@@ -27,7 +27,7 @@ const Footer = () => {
                 <p> Call me Inès! I enjoy undertaking new projects and I am always eager to learn. I have developed this website in order to share my personal self-taught projects. Do not hesitate to contact me to discuss it! </p>
                 <div className="social"> 
                 <a href="https://www.linkedin.com/in/ines-bouakkaoui/" target="_blank"> <FaLinkedin size={30} style={{ color:"#fff", marginRight: "1rem" }} /> </a>
-                <a href="https://www.discord.com/Ines#2839" target="_blank"> <FaDiscord size={30} style={{ color:"#fff", marginRight: "1rem" }} /></a>
+                <a href="https://github.com/inesbouakkaoui" target="_blank"> <FaGithub size={30} style={{ color:"#fff", marginRight: "1rem" }} /></a>
                 </div>
             </div>
         </div>
